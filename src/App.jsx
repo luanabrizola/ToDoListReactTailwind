@@ -1,4 +1,5 @@
-import { IconCheck, IconTrash } from "@tabler/icons-react"
+import { Check, Trash } from "@phosphor-icons/react"
+
 
 
 function App() {
@@ -80,7 +81,9 @@ function App() {
                   </p>
                 </label>
               </div>
-              <button><IconTrash className="text-cinza-300 hover:text-danger"/></button>
+              <button>
+                <Trash className="text-cinza-300 hover:text-danger"/>
+              </button>
             </div>
 
             {/* Item */}
@@ -93,14 +96,14 @@ function App() {
                       rounded-full w-4 h-4 flex items-center justify-center 
                       border-2 border-roxo-dark bg-roxo-dark"
                   >
-                    <IconCheck/>
+                    <Check/>
                   </span>
                   <p className="text-cinza-300 line-through">
                     Tarefa 1
                   </p>
                 </label>
               </div>
-              <button><IconTrash className="text-cinza-300 hover:text-danger"/></button>
+              <button><Trash className="text-cinza-300 hover:text-danger"/></button>
             </div>
 
             
